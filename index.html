@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./src/img/logobrecho.jpg"/>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Brechó da Rá</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <img src="./src/img/logobrecho.jpg" alt="brechó da ra" class="logo">
+                <h1>Brechó da Ra</h1>
+                <h2>Destinado a Mulheres</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/brecho.da_ra/" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/message/UCBLMNKV2ASFL1" target="_blank">WhatsApp</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/rachel_makeup01/">Rachel Fashion Hair</a>
+                        </li>
+                        <!-- <li>
+                            <a href="./carrinho.html">Carrinho</a>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="container">
+            <section class="pecas-roupas">
+                <h2 class="titlePecas">Times destaques</h2><br>
+                <ul class="lista-pecas">
+                  <li class="peca">
+                    <img src="./src/img/palmeiras2023.png" alt="Peca 1">
+                    <div class="detalhes-peca">
+                      <h3>Palmeias Away - Branca</h3>
+                      <p class="preco">R$ 259,99</p>
+                      <button class="botao-comprar">Comprar</button>
+                      <button onclick="adicionarItem()" class="botao-carrinho">Carrinho</button>
+                    </div>
+                  </li>
+                  <li class="peca">
+                      <img src="./src/img/regataMancha.jpg" alt="Peca 3">
+                      <div class="detalhes-peca">
+                          <h3>Regata Mancha Verde Masculina</h3>
+                          <p class="preco">R$ 99,90</p>
+                          <button class="botao-comprar">Comprar</button>
+                          <button class="botao-carrinho">Carrinho</button>
+                        </div>
+                    </li>
+                    <li class="peca">
+                        <img src="./src/img/camisaReal.webp" alt="Peça 5">
+                        <div class="detalhes-peca">
+                            <h3>Camisa Real Madrid - Branca 22/23</h3>
+                            <p class="preco">R$ 279,99</p>
+                            <button class="botao-comprar">Comprar</button>
+                            <button class="botao-carrinho">Carrinho</button>
+                        </div>
+                    </li>
+                    <li class="peca">
+                        <img src="./src/img/manchesterCity.webp" alt="Peça 6">
+                        <div class="detalhes-peca">
+                            <h3>Camisa Manchester City - Home</h3>
+                            <p class="preco">R$ 379,99</p>
+                            <button class="botao-comprar">Comprar</button>
+                            <button class="botao-carrinho">Carrinho</button>
+                        </div>
+                    </li>
+                </section>
+                <section class="pecas-roupas">
+                    <h2 class="titlePecas">Destaques Femininos</h2><br>
+                    <ul class="lista-pecas" id="itens-carrinho">
+                    <li class="peca">
+                        <img src="./src/img/croppedAzul.jpg" alt="Peca 2">
+                      <div class="detalhes-peca">
+                        <h3>Cropped Azul</h3>
+                        <p class="preco">R$ 49,90</p>
+                        <button class="botao-comprar">Comprar</button>
+                        <button class="botao-carrinho">Carrinho</button>
+                      </div>
+                    </li>
+                    <li class="peca">
+                    <img src="./src/img/vestidoPreto.webp" alt="Peca 4">
+                    <div class="detalhes-peca">
+                      <h3>Vestido Preto</h3>
+                      <h5 style="color: lightsteelblue;">Consultar tamanhos disponiveis</h5>
+                      <p class="preco">R$ 79,90</p>
+                      <button class="botao-comprar">Comprar</button>
+                      <button class="botao-carrinho">Carrinho</button>
+                    </div>
+                  </li>
+                    <li class="peca">
+                    <img src="./src/img/vestidoPreto.webp" alt="Peca 4">
+                    <div class="detalhes-peca">
+                      <h3>Vestido Preto</h3>
+                      <h5 style="color: lightsteelblue;">Consultar tamanhos disponiveis</h5>
+                      <p class="preco">R$ 79,90</p>
+                      <button class="botao-comprar">Comprar</button>
+                      <button class="botao-carrinho">Carrinho</button>
+                    </div>
+                  </li>
+                    <li class="peca">
+                    <img src="./src/img/vestidoPreto.webp" alt="Peca 4">
+                    <div class="detalhes-peca">
+                      <h3>Vestido Preto</h3>
+                      <h5 style="color: lightsteelblue;">Consultar tamanhos disponiveis</h5>
+                      <p class="preco">R$ 79,90</p>
+                      <button class="botao-comprar">Comprar</button>
+                      <button class="botao-carrinho">Carrinho</button>
+                    </div>
+                  </li>
+              </section>
+        </section>   
+        <footer>
+            <div class="footer">
+                <h4>Criado e administrado por Rachel Fashior Hair</h4><br>
+            </div>
+        </footer>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

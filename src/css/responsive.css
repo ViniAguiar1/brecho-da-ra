@@ -1,0 +1,196 @@
+/* Estilos para telas menores que 425px */
+@media (max-width: 425px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    header {
+      padding: 10px;
+    }
+  
+    header img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    header h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    nav li {
+      margin: 0 5px;
+    }
+  
+    nav a {
+      font-size: 16px;
+    }
+  
+    .titlePecas{
+      flex-direction: column;
+    }
+  
+    .peca {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 320px){
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        color: #333;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+    }
+    
+    /* Header */
+    header {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    header h2 {
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 20px;
+        color: #999;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav li {
+        margin: 0 10px;
+    }
+    
+    nav a {
+        color: #333;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    /* Product List */
+    .titlePecas {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pecas-roupas {
+        padding: 20px;
+        background-color: #f7f7f7;
+    }
+    
+    .lista-pecas {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .peca {
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+        overflow: hidden;
+    }
+    
+    .peca img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .detalhes-peca {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .detalhes-peca h3 {
+        margin-top: 0;
+    }
+    
+    .preco {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .botao-comprar {
+        background-color: #222;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 14px;
+    }
+    
+    .botao-carrinho {
+        background-color: #FFDEAD;
+        color: black;
+        border: none;
+        padding: 10px;
+        margin-top: 3px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 14px;
+    }
+    
+    .botao-comprar:hover {
+        background-color: #444;
+    }
+    
+    .botao-carrinho:hover {
+        background-color: #444;
+    }
+    
+    /* Footer */
+    .footer {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    
+    .quantidade {
+        width: 35px;
+    }
+  }

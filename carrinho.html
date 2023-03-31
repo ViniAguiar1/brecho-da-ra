@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./src/img/logobrecho.jpg"/>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/carrinho.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <h1>Seu carrinho/h1>
+	<form id="carrinho">
+		<label for="nome">Nome do Produto:</label>
+		<input type="text" id="nome" name="nome"><br><br>
+		<label for="preco">Preço:</label>
+		<input type="number" id="preco" name="preco" step="0.01"><br><br>
+		<label for="quantidade">Quantidade:</label>
+		<input type="number" id="quantidade" name="quantidade" value="1"><br><br>
+		<button type="submit" onclick="adicionarItem()">Adicionar ao Carrinho</button>
+	</form>
+	<h2>Carrinho</h2>
+	<ul id="itens-carrinho">
+		<!-- Itens adicionados aparecerão aqui -->
+	</ul>
+    <script src="./src/js/carrinha.js"></script>
+</body>
+</html>
